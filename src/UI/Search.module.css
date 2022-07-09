@@ -1,0 +1,41 @@
+.search_container{
+    background-color: #4BAEFE;
+    height:75px;
+    text-align: center;
+    position:sticky;
+    top:0;
+}
+
+.searchinput{
+    text-align: start;
+    margin-top: 1%;
+    background-color: white;
+    width:950px;
+    margin-right:10px;
+    font-weight: 600;
+    padding: 14px 28px;
+    box-shadow: 0 2px 2px 0 transparent,0 0 1px 0 transparent;
+    border:1px white;
+}
+
+.SearchIcon{
+    margin-left:-1%;
+    margin-top:1%;
+    background-color: white;
+    padding: 12px 24px;
+    border:1px solid white;
+    border-bottom: 2px solid white;
+    cursor: pointer;
+}
+
+.tenorname{
+   visibility: hidden;
+}
+
+
+.image_container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:3%;
+    margin-top:5%;
+}

@@ -1,0 +1,69 @@
+.header_container{
+    display:flex;
+    justify-content: space-around;
+    margin:-20px;
+}
+.appname{
+color:#007ADD;
+cursor:pointer;
+font-weight: 500;
+position:sticky;
+top:0;
+margin-left:1%;
+}
+
+.header_right{
+    display: flex;
+    gap:5%;
+    margin-top: 2%;
+    margin-left:450px;
+}
+
+.uploadbutton{
+background-color:#0081EB ;
+color:white;
+width:130px;
+height:35px;
+border: 1px solid transparent;
+border-radius: 5%;
+font-size: 16px;
+font-weight: bolder;
+text-align: center;
+transition: 0.3s;
+cursor:pointer;
+}
+
+.uploadbutton:hover{
+    transform:scale(1.1)
+}
+
+.signinbutton{
+    background-color:white ;
+    color:#0081EB;
+    width:110px;
+    height:35px;
+    border: 1px solid #007ADD;
+    border-radius: 5%;
+    font-size: 16px;
+    font-weight: bolder;
+    cursor:pointer;
+}
+
+.signinbutton:hover{
+    transform:scale(1.1)
+}
+
+.uploadicon{
+    color:white;
+    font-size: 22px;
+}
+
+.menubar{
+    margin-top: -1%;
+}
+
+.menubar:hover{
+    transform: scale(1.1);
+}
+
+

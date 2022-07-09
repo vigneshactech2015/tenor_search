@@ -1,0 +1,22 @@
+.carousel_container{
+    position:relative;
+    z-index: -1;
+    width:83%;
+    margin-left: 10%;
+}
+
+.trendingtenor_heading{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.photo{
+    height:100px;
+        width:180px;
+        border-radius: 10px ;
+}
+
+p{
+    font-size:16px;
+    font-weight:600;
+}
